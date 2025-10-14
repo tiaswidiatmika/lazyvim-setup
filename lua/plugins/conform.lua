@@ -9,6 +9,7 @@ return {
             scss = { "prettier" }, -- Add SCSS formatting
             javascript = { "prettier" }, -- Add JS formatting
             typescript = { "prettier" }, -- Add TS formatting
+            php = { "php_cs_fixer" },
         },
         formatters = {
             yamlfmt = {

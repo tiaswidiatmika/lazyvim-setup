@@ -1,7 +1,7 @@
 return {
     -- Ensure Vue language server
     {
-        "williamboman/mason.nvim",
+        "mason-org/mason.nvim",
         opts = {
             ensure_installed = {
                 "vue-language-server",
